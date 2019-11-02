@@ -9,12 +9,12 @@
         <img v-else src="@/assets/icons/close-button.svg" alt=""/>
       </div>
 
-      <div class="ms-menu-logo-wrapper">
+      <div class="ms-menu-logo-wrapper" v-if="menuIsActive">
         <img src="@/assets/menu-logo.png" alt="My Spectrum">
       </div>
     </div>
 
-    <ms-menu></ms-menu>
+    <ms-menu v-if="menuIsActive"></ms-menu>
   </div>
 </template>
 
