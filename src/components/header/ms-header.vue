@@ -8,8 +8,13 @@
         <img v-if="!menuIsActive" src="@/assets/icons/menu-button.svg" alt=""/>
         <img v-else src="@/assets/icons/close-button.svg" alt=""/>
       </div>
-      <ms-menu></ms-menu>
+
+      <div class="ms-menu-logo-wrapper">
+        <img src="@/assets/menu-logo.png" alt="My Spectrum">
+      </div>
     </div>
+
+    <ms-menu></ms-menu>
   </div>
 </template>
 
@@ -36,19 +41,33 @@ export default {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  position: relative;
 
-  .ms-menu-button {
-    width: 80px;
-    height: 80px;
+  .ms-menu-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $red-dark;
-    cursor: pointer;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 10;
 
-    img {
-      width: 20px;
-      height: 20px;
+    .ms-menu-button {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $red-dark;
+      cursor: pointer;
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .ms-menu-logo-wrapper {
+      img {
+        height: calc(100vh - 80px);
+      }
     }
   }
 }
