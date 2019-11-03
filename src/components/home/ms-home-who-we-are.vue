@@ -22,7 +22,7 @@
       </div>
       <div class="ms-text">
         <h4 class="ms-subtitle">WHO WE ARE</h4>
-        <h3 class="ms-title">VALUE CATALYSTS<span class="red-dot">.</span></h3>
+        <h3 class="ms-title">VALUE CATALYSTS<i class="fas fa-square"></i></h3>
         <p class="ms-description">
           Our business model is a Partner based model which drives Growth
           Strategy, Organizational Transformation and Business Management
@@ -78,7 +78,6 @@
     }
     .ms-text {
       padding: 4vw 5.5vw 4vw 4vw;
-
       .ms-subtitle {
         font-size: 14px;
         font-weight: bold;
