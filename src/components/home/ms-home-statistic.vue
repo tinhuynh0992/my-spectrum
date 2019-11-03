@@ -1,3 +1,7 @@
 <template>
-  <h1>Statistic</h1>
+  <div class="ms-statistic">
+    <div class="ms-box">
+
+    </div>
+  </div>
 </template>
