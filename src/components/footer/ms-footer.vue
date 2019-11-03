@@ -18,7 +18,7 @@
         <p> By subscribing here, you will receive our newsletters. You can unsubscribe at any time by following the link at the bottom of each newsletter. </p>
         <div class="ms-container-right-box">            
           <input type="text" id="txt-container-right-email" placeholder="Type your email/here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Type your email/here'" >
-          <button class="ms-container-right-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+          <button class="ms-container-right-icon"><i class="fa fa-long-arrow-alt-right"></i></button>
         </div>
         <div class="ms-container-right-link">
           <a href="#">PRIVACY POLICY</a> 

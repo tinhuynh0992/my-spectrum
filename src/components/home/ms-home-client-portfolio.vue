@@ -2,7 +2,7 @@
   <div class="ms-client-portfolio">
     <div class="ms-row">
       <div class="ms-text">
-        <h1 class="ms-title">Client portfolio<i class="fas fa-square"></i></h1>
+        <h1 class="ms-title">Client portfolio<i class="fa fa-square"></i></h1>
         
         <p class="ms-description">
           MY SPECTRUM clients have been installed in a 

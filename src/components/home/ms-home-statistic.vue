@@ -45,7 +45,7 @@
       margin-bottom: auto;
       margin-top: auto;
     }
-    .ms-box{
+    .ms-box{      
       border-top: 3px solid #e82721;
       width: 980px;
       height: 239px;
@@ -56,6 +56,8 @@
       margin-right: auto;
       justify-content: center;
       align-items: center;
+      position: relative;
+      margin-bottom: -35px;
     }
     .ms-text{
       font-family: Roboto;
