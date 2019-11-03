@@ -1,5 +1,5 @@
 <template>
-  <div class="ms-home-who-we-are">
+  <div class="ms-home-who-we-are" id="home-who-we-are">
     <div class="ms-row">
       <div class="ms-text">
         <h4 class="ms-subtitle">WHO WE ARE</h4>

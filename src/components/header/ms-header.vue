@@ -42,6 +42,7 @@ export default {
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
+  background-image: linear-gradient(to bottom, #000000, rgba(65, 65, 65, 0.58));
 
   .ms-menu-wrapper {
     display: flex;
