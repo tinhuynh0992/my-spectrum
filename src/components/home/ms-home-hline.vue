@@ -1,3 +1,57 @@
 <template>
-  <h1>This is home horizontal line</h1>
+  <div class="ms-home-hline">
+    <div class="ms-home-hline-logo">
+    </div>
+
+    <div class="ms-menu-wrapper">
+      <div class="ms-menu-button" @click="menuIsActive = !menuIsActive">
+        <img v-if="!menuIsActive" src="@/assets/icons/menu-button.svg" alt=""/>
+        <img v-else src="@/assets/icons/close-button.svg" alt=""/>
+      </div>
+    </div>
+
+    <ms-menu v-if="menuIsActive"></ms-menu>
+  </div>
 </template>
+
+<script>
+import msMenu from '@/components/header/ms-menu.vue'
+
+export default {
+  data() {
+    return {
+      menuIsActive: false
+    }
+  },
+
+  components: {
+    msMenu
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+@import '@/assets/styles/colors.scss';
+
+.ms-home-hline {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+
+  .ms-menu-button {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $red-dark;
+    cursor: pointer;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+</style>

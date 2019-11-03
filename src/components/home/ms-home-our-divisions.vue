@@ -22,6 +22,7 @@
       </div>
       <div class="ms-division">
         <div class="ms-division-image">
+          <div class="ms-divison-image-hover"></div>
           <img src="/img/home/our-division-2.jpg" alt="">
         </div>
         <div class="ms-division-name">
@@ -35,6 +36,7 @@
       </div>
       <div class="ms-division">
         <div class="ms-division-image">
+          <div class="ms-divison-image-hover"></div>
           <img src="/img/home/our-division-3.jpg" alt="">
         </div>
         <div class="ms-division-name">
@@ -47,6 +49,10 @@
         </div>
       </div>
     </div>
+
+    <div class="ms-read-more-wrapper">
+      <button class="ms-read-more">READ MORE</button>
+    </div>
   </div>
 </template>
 
@@ -54,6 +60,9 @@
 @import '@/assets/styles/colors.scss';
 
 .ms-home-our-divisions {
+  padding-top: 110px;
+  padding-bottom: 110px;
+
   .section-title {
     font-size: 40px;
     font-weight: bold;
@@ -79,6 +88,7 @@
       padding: 0 30px 50px 30px;
       margin-right: 3vw;
       color: #000;
+      cursor: pointer;
 
       &:last-child {
         margin-right: 0;
@@ -127,6 +137,19 @@
         font-size: 18px;
         line-height: 28px;
       }
+    }
+  }
+
+  .ms-read-more-wrapper {
+    margin-top: 60px;
+    text-align: center;
+
+    .ms-read-more {
+      background-color: #000;
+      color: #fff;
+      font-size: 13px;
+      padding: 24px 80px;
+      border: none;
     }
   }
 }

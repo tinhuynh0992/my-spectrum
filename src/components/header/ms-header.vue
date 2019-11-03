@@ -1,5 +1,5 @@
 <template>
-  <div class="ms-header">
+  <header class="ms-header">
     <div class="ms-header-logo">
       <img src="@/assets/logo.png" alt="My Spectrum">
     </div>
@@ -15,7 +15,7 @@
     </div>
 
     <ms-menu v-if="menuIsActive"></ms-menu>
-  </div>
+  </header>
 </template>
 
 <script>
