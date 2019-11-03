@@ -3,7 +3,7 @@
     <div class="ms-row">
       <div class="ms-text">
         <h4 class="ms-subtitle">WHO WE ARE</h4>
-        <h3 class="ms-title">SOLUTIONISTS & CONNECTORS<span class="red-dot">.</span></h3>
+        <h3 class="ms-title">SOLUTIONISTS & CONNECTORS<i class="fas fa-square"></i></h3>
         <p class="ms-description">
           Connecting the right strategy, tools, and networks to our clients'
           needs, providing a one stop solution via hands-on engagements through
@@ -22,7 +22,7 @@
       </div>
       <div class="ms-text">
         <h4 class="ms-subtitle">WHO WE ARE</h4>
-        <h3 class="ms-title">VALUE CATALYSTS<span class="red-dot">.</span></h3>
+        <h3 class="ms-title">VALUE CATALYSTS<i class="fas fa-square"></i></h3>
         <p class="ms-description">
           Our business model is a Partner based model which drives Growth
           Strategy, Organizational Transformation and Business Management
@@ -49,7 +49,7 @@
     margin: 0 auto;
     display: flex;
     &:first-child {
-      margin-bottom: 84px;
+    margin-bottom: 84px;
     }
 
     .ms-image {
@@ -76,10 +76,8 @@
         }
       }
     }
-
     .ms-text {
       padding: 4vw 5.5vw 4vw 4vw;
-
       .ms-subtitle {
         font-size: 14px;
         font-weight: bold;
@@ -116,6 +114,11 @@
           border: none;
         }
       }
+    }
+    .ms-title i{
+      font-size: 10px;
+      margin-left: 3px;
+      color: #e82721;
     }
   }
 }
