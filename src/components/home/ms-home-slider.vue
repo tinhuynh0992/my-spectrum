@@ -120,17 +120,31 @@ export default {
     .ms-slide-tags {
       display: flex;
       padding-left: 0;
+      margin-bottom: 32px;
 
       li {
         list-style-type: none;
         margin-left: 0;
-        margin-right: 20px;
+        padding-right: 20px;
         color: #fff;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 2.31;
+        letter-spacing: 1.3px;
+        padding-bottom: 32px;
+        border-bottom: 2px solid $red-dark;
+
+        .red-dot {
+          font-size: 9px;
+          color: $red-dark;
+        }
 
         &:last-child {
-          margin-right: 0;
+          padding-right: 0;
         }
       }
+
+      
     }
 
     .ms-read-more {
