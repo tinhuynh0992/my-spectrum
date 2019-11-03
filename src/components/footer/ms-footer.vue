@@ -27,8 +27,8 @@
         </div>
       </div>
       <div class="ms-container-bottom-right">
-        <a href="#" >TO TOP</a>
-        <hr class="new1">
+        <a href="#app" >TO TOP</a>
+        <hr class="ms-container-bottom-right-line">
       </div>
 
     </div>
@@ -172,10 +172,11 @@
     -o-transform: rotate(-90deg);
     display: flex;
     align-items: center;
+    padding-left: 146px;
+    margin-right: -80px;
+    padding-top: 60px;
   }
   .ms-container-bottom-right a{
-    margin-left: 65px;
-    height: 68px;
     font-family: Roboto;
     font-size: 10px;
     font-weight: bold;
@@ -186,5 +187,10 @@
     text-align: left;
     color: #fff;
     text-decoration: none;
+    padding-right: 30px;
+  }
+  .ms-container-bottom-right-line{
+    width: 125px;
+    margin-right: -70px;
   }
 </style>
