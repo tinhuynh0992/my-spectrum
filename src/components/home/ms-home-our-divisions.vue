@@ -1,3 +1,133 @@
 <template>
-  <h1>Our divisisions</h1>
+  <div class="ms-home-our-divisions">
+    <h3 class="section-title">Our divisisions</h3>
+    <p class="section-description">
+      Leveraging experience and insight to enabling peak business<br/>
+      performance.
+    </p>
+    <div class="ms-divisions">
+      <div class="ms-division">
+        <div class="ms-division-image">
+          <div class="ms-divison-image-hover"></div>
+          <img src="/img/home/our-division-1.jpg" alt="">
+        </div>
+        <div class="ms-division-name">
+          CONSULTING <span class="red-dot"></span>
+        </div>
+        <div class="ms-division-description">
+          Delivering on a holistic, 360 strategic<br/>
+          approach tailored to your enterprise<br/>
+          growth agenda. 
+        </div>
+      </div>
+      <div class="ms-division">
+        <div class="ms-division-image">
+          <img src="/img/home/our-division-2.jpg" alt="">
+        </div>
+        <div class="ms-division-name">
+          COMMUNICATION <span class="red-dot"></span>
+        </div>
+        <div class="ms-division-description">
+          Creating platform neutral memorable<br/>
+          Brand Experiences across Customer<br/>
+          Journeys.
+        </div>
+      </div>
+      <div class="ms-division">
+        <div class="ms-division-image">
+          <img src="/img/home/our-division-3.jpg" alt="">
+        </div>
+        <div class="ms-division-name">
+          ASSETS <span class="red-dot"></span>
+        </div>
+        <div class="ms-division-description">
+          Igniting and fueling viable value<br/>
+          across the stakeholder chain of a<br/>
+          destination venue.
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
+
+<style lang="scss" scoped>
+@import '@/assets/styles/colors.scss';
+
+.ms-home-our-divisions {
+  .section-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 59px;
+  }
+  .section-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  .ms-divisions {
+    display: flex;
+    justify-content: center;
+
+    .ms-division {
+      border: 1px solid #b7b7b7;
+      padding: 0 30px 50px 30px;
+      margin-right: 3vw;
+      color: #000;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: #fff;
+        background-color: $red-light;
+
+        .ms-division-image .ms-divison-image-hover {
+          width: 100%;
+          height: 330px;
+          position: absolute;
+          top: -45px;
+          background: url('/img/add.svg'), rgba(0,0,0,0.5);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 75px 75px;
+          z-index: 1;
+          display: block;
+        }
+      }
+
+      .ms-division-image {
+        position: relative;
+
+        .ms-divison-image-hover {
+          display: none;
+        }
+
+        img {
+          position: relative;
+          height: 330px;
+          top: -45px;
+        }
+      }
+
+      .ms-division-name {
+        font-size: 23px;
+        line-height: 59px;
+        font-weight: bold;
+        margin-top: -5px;
+      }
+
+      .ms-division-description {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+}
+</style>
