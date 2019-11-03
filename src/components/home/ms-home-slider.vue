@@ -1,6 +1,6 @@
 <template>
   <div class="ms-home-slider">
-    <hooper :vertical="true" style="height: 400px" :itemsToShow="1" :centerMode="true">
+    <hooper :vertical="true" style="height: 100vh" :itemsToShow="1" :centerMode="true">
       <slide>
         <div class="ms-home-slide">
           <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 1</span></h4>
@@ -16,7 +16,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE</router-link>
+          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -34,7 +34,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE</router-link>
+          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -52,7 +52,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE</router-link>
+          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -70,7 +70,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE</router-link>
+          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
     </hooper>
@@ -97,8 +97,6 @@ export default {
   background-color: rgba(65, 65, 65, 0.58);
 
   .ms-home-slide {
-    height: 100vh;
-
     .ms-slide-title {
       font-size: 60px;
       font-weight: bold;
@@ -136,7 +134,11 @@ export default {
     }
 
     .ms-read-more {
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 2.31;
       color: #fff;
+      text-decoration: none;
     }
   }
 }
