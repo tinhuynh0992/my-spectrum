@@ -11,86 +11,88 @@
       <a href="#"><i class="fa fa-arrow-left"></i></a>
       <a href="#"><i class="fa fa-arrow-right"></i></a>
     </div>
-    <div class="ms-posts">
-      <div class="ms-post">
-        <div class="ms-post-image">
-          <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
-          <span class="badge">NEWS</span>
-        </div>
-        <div class="ms-post-text">
-          <p class="ms-post-date">04/03/2019</p>
-          <h4 class="ms-post-title">Creating value beyond the deal</h4>
-          <p class="ms-post-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi feugiat, felis et sagittis pulvinar …
-          </p>
-        </div>
-
-        <div class="ms-post-layer">
-          <div class="ms-post-tags">
+    <div class="ms-posts-wrapper">
+      <div class="ms-posts">
+        <div class="ms-post">
+          <div class="ms-post-image">
+            <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
             <span class="badge">NEWS</span>
           </div>
-          <p class="ms-post-date">04/03/2019</p>
-          <h4 class="ms-post-title">Creating value beyond the deal</h4>
-          <p class="ms-post-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi feugiat, felis et sagittis pulvinar …
-          </p>
-        </div>
-      </div>
-      <div class="ms-post">
-        <div class="ms-post-image">
-          <img src="/img/home/last-new-2.jpg" alt="Last new post 1">
-          <span class="badge">NEWS</span>
-        </div>
-        <div class="ms-post-text">
-          <p class="ms-post-date">04/03/2019</p>
-          <h4 class="ms-post-title">Creating value beyond the deal</h4>
-          <p class="ms-post-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi feugiat, felis et sagittis pulvinar …
-          </p>
-        </div>
+          <div class="ms-post-text">
+            <p class="ms-post-date">04/03/2019</p>
+            <h4 class="ms-post-title">Creating value beyond the deal</h4>
+            <p class="ms-post-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi feugiat, felis et sagittis pulvinar …
+            </p>
+          </div>
 
-        <div class="ms-post-layer">
-          <div class="ms-post-tags">
+          <div class="ms-post-layer">
+            <div class="ms-post-tags">
+              <span class="badge">NEWS</span>
+            </div>
+            <p class="ms-post-date">04/03/2019</p>
+            <h4 class="ms-post-title">Creating value beyond the deal</h4>
+            <p class="ms-post-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi feugiat, felis et sagittis pulvinar …
+            </p>
+          </div>
+        </div>
+        <div class="ms-post">
+          <div class="ms-post-image">
+            <img src="/img/home/last-new-2.jpg" alt="Last new post 1">
             <span class="badge">NEWS</span>
           </div>
-          <p class="ms-post-date">04/03/2019</p>
-          <h4 class="ms-post-title">Creating value beyond the deal</h4>
-          <p class="ms-post-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi feugiat, felis et sagittis pulvinar …
-          </p>
-        </div>
-      </div>
-      <div class="ms-post">
-        <div class="ms-post-image">
-          <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
-          <span class="badge">TOPICS</span>
-        </div>
-        <div class="ms-post-text">
-          <p class="ms-post-date">04/03/2019</p>
-          <h4 class="ms-post-title">Creating value beyond the deal</h4>
-          <p class="ms-post-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi feugiat, felis et sagittis pulvinar …
-          </p>
-        </div>
-
-        <div class="ms-post-layer">
-          <div class="ms-post-tags">
-            <span class="badge">NEWS</span>
+          <div class="ms-post-text">
+            <p class="ms-post-date">04/03/2019</p>
+            <h4 class="ms-post-title">Creating value beyond the deal</h4>
+            <p class="ms-post-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi feugiat, felis et sagittis pulvinar …
+            </p>
           </div>
-          <p class="ms-post-date">04/03/2019</p>
-          <h4 class="ms-post-title">Creating value beyond the deal</h4>
-          <p class="ms-post-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Morbi feugiat, felis et sagittis pulvinar …
-          </p>
+
+          <div class="ms-post-layer">
+            <div class="ms-post-tags">
+              <span class="badge">NEWS</span>
+            </div>
+            <p class="ms-post-date">04/03/2019</p>
+            <h4 class="ms-post-title">Creating value beyond the deal</h4>
+            <p class="ms-post-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi feugiat, felis et sagittis pulvinar …
+            </p>
+          </div>
         </div>
+        <div class="ms-post">
+          <div class="ms-post-image">
+            <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
+            <span class="badge">TOPICS</span>
+          </div>
+          <div class="ms-post-text">
+            <p class="ms-post-date">04/03/2019</p>
+            <h4 class="ms-post-title">Creating value beyond the deal</h4>
+            <p class="ms-post-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi feugiat, felis et sagittis pulvinar …
+            </p>
+          </div>
+
+          <div class="ms-post-layer">
+            <div class="ms-post-tags">
+              <span class="badge">NEWS</span>
+            </div>
+            <p class="ms-post-date">04/03/2019</p>
+            <h4 class="ms-post-title">Creating value beyond the deal</h4>
+            <p class="ms-post-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Morbi feugiat, felis et sagittis pulvinar …
+            </p>
+          </div>
+        </div>
+    
       </div>
-  
     </div>
     <div class="ms-button">
       <button class="ms-button-read-more">READ MORE NEWS</button>
@@ -156,19 +158,25 @@
       padding: 6px 16px;
     }
 
-    .ms-posts {
-      width: 70vw;
+    .ms-posts-wrapper {
       position: relative;
+      bottom: -50px;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .ms-posts {
       display: flex;
       justify-content: center;
       background-color: #fff;
       box-shadow: 0 -20px 20px 0 rgba(0, 0, 0, 0.04);
       padding: 30px;
-      margin: 0 auto;
 
       .ms-post {
         position: relative;
-        width: 33%;
+        width: 400px;
         margin-right: 20px;
         margin-bottom: 100px;
         
@@ -261,6 +269,7 @@
     .ms-button {
       text-align: center;
       background-color: #fff;
+      padding-top: 50px;
       margin-bottom: 100px;
 
       .ms-button-read-more {
