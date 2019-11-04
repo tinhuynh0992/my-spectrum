@@ -4,27 +4,27 @@
       <div class="ms-text">
         <h4>100+</h4>
         <p>BRAND EXPERIENCE</p>
-        <img src="icon-statistic.png" alt="Icon Statistic">
+        <img src="@/assets/icons/page-statistic/icon-statistic.png" alt="Icon Statistic">
       </div>
       <div class="ms-text">
         <h4>20+</h4>
         <p>COUNTRY EXPERIENCE</p>
-        <img src="icon-statistic.png" alt="Icon Statistic">
+        <img src="@/assets/icons/page-statistic/icon-statistic.png" alt="Icon Statistic">
       </div>
       <div class="ms-text">
         <h4>200+</h4>
         <p>PROJECTS</p>
-        <img src="icon-statistic.png" alt="Icon Statistic">
+        <img src="@/assets/icons/page-statistic/icon-statistic.png" alt="Icon Statistic">
       </div>
       <div class="ms-text">
         <h4>95%</h4>
         <p>SOMETHING ELSE</p>
-        <img src="icon-statistic.png" alt="Icon Statistic">
+        <img src="@/assets/icons/page-statistic/icon-statistic.png" alt="Icon Statistic">
       </div>
       <div class="ms-text">
         <h4>450+</h4>
         <p>EMPLOVESS</p>
-        <img src="icon-statistic.png" alt="Icon Statistic">
+        <img src="@/assets/icons/page-statistic/icon-statistic.png" alt="Icon Statistic">
       </div>
     </div>
   </div>
