@@ -16,7 +16,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -34,7 +34,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -52,7 +52,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -70,7 +70,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
 
@@ -117,8 +117,11 @@ export default {
   overflow: hidden;
 
   .ms-home-slide {
-    // padding-top: 10vh;
-    // padding-left: 10vw;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15vw;
 
     .ms-slide-title {
       font-size: 60px;
@@ -176,6 +179,10 @@ export default {
       line-height: 2.31;
       color: #fff;
       text-decoration: none;
+
+      .fa {
+        margin-left: 10px;
+      }
     }
   }
 
@@ -222,11 +229,13 @@ export default {
 
 .hooper {
   .hooper-pagination.is-vertical {
+    top: calc(50vh - 160px);
     padding-right: 30px;
 
     .hooper-indicator {
       width: 7px;
       height: 7px;
+      margin-bottom: 30px;
 
       &:hover {
         background-color: $red-dark;
