@@ -3,7 +3,7 @@
     <div class="ms-row">
       <div class="ms-text">
         <h4 class="ms-subtitle">WHO WE ARE</h4>
-        <h3 class="ms-title">SOLUTIONISTS & CONNECTORS<i class="fa fa-square"></i></h3>
+        <h3 class="ms-title">SOLUTIONISTS &<br/>CONNECTORS<i class="fa fa-square"></i></h3>
         <p class="ms-description">
           Connecting the right strategy, tools, and networks to our clients'
           needs, providing a one stop solution via hands-on engagements through
@@ -48,8 +48,9 @@
     width: 75vw;
     margin: 0 auto;
     display: flex;
+
     &:first-child {
-    margin-bottom: 84px;
+      margin-bottom: 84px;
     }
 
     .ms-image {
@@ -88,6 +89,7 @@
       .ms-title {
         font-size: 40px;
         font-weight: bold;
+        line-height: 1.23;
         color: #000;
         margin-top: 0;
         margin-bottom: 25px;
