@@ -32,24 +32,24 @@
       <button class="ms-button-partner">VIEW ALL PARTNERS</button>
     </div>
 
-    <div class="ms-particle-wrapper">
+    <!-- <div class="ms-particle-wrapper">
       <ms-particle
         width="400px"
         height="200px"
         link-color="#f2f2f2"
       ></ms-particle>
-    </div>
+    </div> -->
   </div>
   
 </template>
 
 <script>
-import msParticle from '@/components/ms-particle.vue'
+// import msParticle from '@/components/ms-particle.vue'
 
 export default {
-  components: {
-    msParticle
-  }
+  // components: {
+  //   msParticle
+  // }
 }
 </script>
 
