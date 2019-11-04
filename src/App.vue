@@ -21,6 +21,10 @@ export default {
 body {
   margin: 0;
   padding: 0;
+
+  &.ms-menu-opened {
+    overflow-y: hidden;
+  }
 }
 #app {
   font-family: 'Roboto', sans-serif;

@@ -4,7 +4,7 @@
       <img src="@/assets/logo.png" alt="My Spectrum">
     </div>
     <div class="ms-menu-wrapper">
-      <div class="ms-menu-button" @click="menuIsActive = !menuIsActive">
+      <div class="ms-menu-button" @click="handleClickMenuButton">
         <img v-if="!menuIsActive" src="@/assets/icons/menu-button.svg" alt=""/>
         <img v-else src="@/assets/icons/close-button.svg" alt=""/>
       </div>
@@ -28,6 +28,14 @@ export default {
   data() {
     return {
       menuIsActive: false
+    }
+  },
+
+  methods: {
+    handleClickMenuButton() {
+      this.menuIsActive = !this.menuIsActive
+
+      document.body.classList.toggle("ms-menu-opened")
     }
   },
 
@@ -71,7 +79,7 @@ export default {
 
     .ms-menu-logo-wrapper {
       img {
-        height: calc(100vh - 80px);
+        height: calc(100vh - 160px);
       }
     }
   }

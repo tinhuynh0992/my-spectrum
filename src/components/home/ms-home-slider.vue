@@ -16,7 +16,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -34,7 +34,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -52,7 +52,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -70,9 +70,11 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE <i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
+
+      <pagination slot="hooper-addons"></pagination>
     </hooper>
 
     <div class="ms-slider-bottom-right">
@@ -83,13 +85,14 @@
 </template>
 
 <script>
-import { Hooper, Slide } from 'hooper'
+import { Hooper, Slide, Pagination } from 'hooper'
 import 'hooper/dist/hooper.css';
 
 export default {
   components: {
     Hooper,
-    Slide
+    Slide,
+    Pagination
   },
 
   methods: {
@@ -197,6 +200,29 @@ export default {
       text-decoration: none;
     }
   }
+}
+</style>
 
+<style lang="scss">
+@import '@/assets/styles/colors.scss';
+
+.hooper {
+  .hooper-pagination.is-vertical {
+    padding-right: 30px;
+
+    .hooper-indicator {
+      width: 7px;
+      height: 7px;
+
+      &:hover {
+        background-color: $red-dark;
+      }
+
+      &.is-active {
+        background-color: $red-dark;
+      }
+    }
+
+  }
 }
 </style>
