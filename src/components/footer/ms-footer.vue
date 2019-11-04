@@ -1,7 +1,6 @@
 <template>
   <footer class="ms-footer">
     <div class="ms-particle-wrapper">
-      <!-- <img src="@/assets/icons/footer/placeholder-image.jpg" alt="icon-footer" class="Intersection-14"> -->
       <ms-particle
         width="300px"
         height="400px"

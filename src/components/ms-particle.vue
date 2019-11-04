@@ -28,13 +28,17 @@ export default {
       type: String,
       default: '#e82721'
     },
+    linkColor: {
+      type: String,
+      default: '#efecec'
+    }
   },
 
   mounted() {
     if (window.jQuery) {
       window.jQuery(this.$refs.particle).jParticle({
         background: "transparent",
-        color: "#fff",
+        color: this.linkColor,
         particlesNumber: this.numberParticles,
 
         particle: {
