@@ -1,5 +1,5 @@
 <template>
-  <div class="ms-last-new">
+  <div class="ms-latest-new">
     <div class="ms-background">
       <img src="@/assets/icons/page-last-new/intersection-15.png" alt="anc">
       <img src="@/assets/icons/page-last-new/intersection-16.png" alt="aanc">
@@ -11,41 +11,86 @@
       <a href="#"><i class="fa fa-arrow-left"></i></a>
       <a href="#"><i class="fa fa-arrow-right"></i></a>
     </div>
-    <div class="ms-content">
-      <div class="ms-post-1">
-        <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
-        <p>04/03/2019</p>
-        <h4>Creating value beyond the deal</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Morbi feugiat, felis et sagittis pulvinar …
-        </p>
-      </div>
-      <div class="ms-post-2">
-        <div class="ms-post-2-btn">
-            <button class="ms-post-2-btn-view">VIEWS</button>
+    <div class="ms-posts">
+      <div class="ms-post">
+        <div class="ms-post-image">
+          <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
+          <span class="badge">NEWS</span>
+        </div>
+        <div class="ms-post-text">
+          <p class="ms-post-date">04/03/2019</p>
+          <h4 class="ms-post-title">Creating value beyond the deal</h4>
+          <p class="ms-post-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi feugiat, felis et sagittis pulvinar …
+          </p>
+        </div>
+
+        <div class="ms-post-layer">
+          <div class="ms-post-tags">
+            <span class="badge">NEWS</span>
           </div>
-        <div class="ms-post-2-content">
-          <p>04/03/2019</p>
-          <h4>Creating value beyond the deal</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur 
-            adipiscing elit. Morbi feugiat, felis et 
-            sagittis pulvinar, lacus ligula dictum libero, 
-            sit amet iaculis tellus neque sed justo. Ut vitae 
-            magna ac enim facilisis porta vitae eget magna. Suspendisse molestie, 
+          <p class="ms-post-date">04/03/2019</p>
+          <h4 class="ms-post-title">Creating value beyond the deal</h4>
+          <p class="ms-post-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi feugiat, felis et sagittis pulvinar …
           </p>
         </div>
       </div>
-      <div class="ms-post-3">
-        <img src="/img/home/last-new-2.png" alt="Last new post 1">
-        <p>04/03/2019</p>
-        <h4>Creating value beyond the deal</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Morbi feugiat, felis et sagittis pulvinar …
-        </p>
+      <div class="ms-post">
+        <div class="ms-post-image">
+          <img src="/img/home/last-new-2.jpg" alt="Last new post 1">
+          <span class="badge">NEWS</span>
+        </div>
+        <div class="ms-post-text">
+          <p class="ms-post-date">04/03/2019</p>
+          <h4 class="ms-post-title">Creating value beyond the deal</h4>
+          <p class="ms-post-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi feugiat, felis et sagittis pulvinar …
+          </p>
+        </div>
+
+        <div class="ms-post-layer">
+          <div class="ms-post-tags">
+            <span class="badge">NEWS</span>
+          </div>
+          <p class="ms-post-date">04/03/2019</p>
+          <h4 class="ms-post-title">Creating value beyond the deal</h4>
+          <p class="ms-post-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi feugiat, felis et sagittis pulvinar …
+          </p>
+        </div>
       </div>
+      <div class="ms-post">
+        <div class="ms-post-image">
+          <img src="/img/home/last-new-1.jpg" alt="Last new post 1">
+          <span class="badge">TOPICS</span>
+        </div>
+        <div class="ms-post-text">
+          <p class="ms-post-date">04/03/2019</p>
+          <h4 class="ms-post-title">Creating value beyond the deal</h4>
+          <p class="ms-post-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi feugiat, felis et sagittis pulvinar …
+          </p>
+        </div>
+
+        <div class="ms-post-layer">
+          <div class="ms-post-tags">
+            <span class="badge">NEWS</span>
+          </div>
+          <p class="ms-post-date">04/03/2019</p>
+          <h4 class="ms-post-title">Creating value beyond the deal</h4>
+          <p class="ms-post-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi feugiat, felis et sagittis pulvinar …
+          </p>
+        </div>
+      </div>
+  
     </div>
     <div class="ms-button">
       <button class="ms-button-read-more">READ MORE NEWS</button>
@@ -55,27 +100,38 @@
 
 
 <style lang="scss" scoped>
-  .ms-last-new{
+  .ms-latest-new {
     background-color: #ededed;
-    .ms-background{
+
+    .ms-background {
       display: flex;
       justify-content: space-between;
+
+      img {
+        width: 389.6px;
+        height: 564.1px;
+      }
     }
-    .ms-background img{
-      width: 389.6px;
-      height: 564.1px;
-    }
-    .ms-title{
+
+    .ms-title {
       position: relative;
       margin-top: -22vw;
       margin-left: 12vw;
+
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 1.48;
+        color: #000;
+        margin-left: 90px;
+      }
     }
     .ms-title i{
       font-size: 10px;
       margin-left: 4px;
       color: #e82721;
     }
-    .ms-icon{
+    .ms-icon {
       display: flex;
       justify-content: flex-end;
       padding-bottom: 50px;
@@ -90,121 +146,135 @@
     .ms-icon i:hover{
       color: #696969;
     }
-    .ms-content{
-      width: 68.5vw;
-      background-color: #fff;
+    .badge {
+      font-size: 11px;
+      line-height: 1.18;
+      letter-spacing: 0.88px;
+      color: #fff;
+      background-color: #000;
+
+      padding: 6px 16px;
+    }
+
+    .ms-posts {
+      width: 70vw;
+      position: relative;
       display: flex;
       justify-content: center;
-      padding-top: 30px;
-      padding-left: 32px;
-      padding-right: 32px;
-      margin-left: auto;
-      margin-right: auto;
-      position: relative;
+      background-color: #fff;
       box-shadow: 0 -20px 20px 0 rgba(0, 0, 0, 0.04);
+      padding: 30px;
+      margin: 0 auto;
+
+      .ms-post {
+        position: relative;
+        width: 33%;
+        margin-right: 20px;
+        margin-bottom: 100px;
+        
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .ms-post-image {
+          position: relative;
+          height: 220px;
+          overflow-y: hidden;
+
+          img {
+            width: 100%;
+          }
+
+          .badge {
+            position: absolute;
+            bottom: 15px;
+            right: 30px;
+          }
+
+        }
+        
+        .ms-post-text {
+          padding: 30px 15px 0 15px;
+          height: 190px;
+        }
+
+        .ms-post-date {
+          font-size: 11px;
+          line-height: 1.18;
+          letter-spacing: 0.88px;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+
+        .ms-post-title {
+          font-size: 23px;
+          font-weight: bold;
+          line-height: 1.17;
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+
+        .ms-post-description {
+          font-size: 17px;
+          line-height: 1.41;
+          margin-top: 0;
+        }
+
+        .ms-post-layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          box-sizing: border-box;
+          background-color: #e80023;
+          width: 100%;
+          height: 440px;
+          display: none;
+          padding: 25px 20px;
+
+          .ms-post-tags {
+            text-align: right;
+            margin-bottom: 30px;
+          }
+        }
+
+        &:hover {
+          .ms-post-layer {
+            display: block;
+            
+            .ms-post-date {
+              color: #fff;
+            }
+
+            .ms-post-title {
+              color: #fff;
+            }
+
+            .ms-post-description {
+               color: #fff;
+            }
+          }
+        }
+
+      }
     }
-    .ms-post-1, .ms-post-3, .ms-post-2{
-      width: 400px;
-    }
-    .ms-post-1, .ms-post-3, .ms-post-2{
-      padding: 10px 10px 15px 10px;
-    }
-    .ms-post-1:hover, .ms-post-2:hover, .ms-post-3:hover{
-      background-color: #e80023;
-    }
-    .ms-post-2{
-      height: 462px;
-      margin-left: 47px;
-      margin-right: 47px;
-      background-color: #e80023;
-    }
-    h4,p{
-      padding-left: 10px;
-    }
-    h4{
-      width: 369px;
-      font-family: Roboto;
-      font-size: 23px;
-      font-weight: bold;
-      line-height: 1.17;
-      letter-spacing: normal;
-      text-align: left;
-      color: #000000;
-      margin-bottom: 26px;
-    }
-    p{
-      width: 368px;
-      font-family: Roboto;
-      font-size: 17px;
-      font-weight: normal;
-      line-height: 1.41;
-      letter-spacing: normal;
-      text-align: left;
-      color: #000000;
-      margin-bottom: -15px;
-    }
-    h1{
-      width: 534.5px;
-      height: 68.2px;
-      font-family: Roboto;
-      font-size: 40px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.48;
-      letter-spacing: normal;
-      text-align: left;
-      color: #000000;
-      margin-left: 90px;
-    }
-    img{
-      width: 400px;
-      height: 290px;
-    }
-    .ms-button{
-      padding-top: 110px;
-      padding-bottom: 116px;
-      display: flex;
-      justify-content: center;
+
+    .ms-button {
+      text-align: center;
       background-color: #fff;
-      margin-top: -100px;
+      margin-bottom: 100px;
+
+      .ms-button-read-more {
+        color: #fff;
+        background-color: #000;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 2.31;
+        letter-spacing: 1.3px;
+        padding: 25px 50px;
+        border: none;
+        cursor: pointer;
+      }
     }
-    .ms-button .ms-button-read-more{
-      color: #fff;
-      width: 222.6px;
-      height: 62px;
-      background-color: #000000;
-      font-family: Roboto;
-      font-size: 13px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 2.31;
-      letter-spacing: 1.3px;
-      border: none;
-      margin-top: 105px;
-    }
-    .ms-post-2-btn{
-      display: flex;
-      justify-content: flex-end;
-    }
-    .ms-post-2 .ms-post-2-btn-view{
-      width: 64px;
-      height: 27px;
-      background-color: #000000;
-      color: #fff;
-      border: none;
-      margin-top: 22px;
-      margin-bottom: 22px;
-      margin-right: 22px;
-      position: relative;
-    }
-    .ms-post-2{
-      background: #fff;
-    }
-   .ms-post-2-content h4,p{
-     color: #000;
-   }
-    
+
   }
 </style>
