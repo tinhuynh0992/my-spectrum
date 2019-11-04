@@ -1,6 +1,7 @@
 <template>
   <div class="ms-home-hline">
     <div class="ms-home-hline-logo">
+      <img src="@/assets/group-179.png" alt="logo">
     </div>
 
     <div class="ms-menu-wrapper">
@@ -52,6 +53,16 @@ export default {
       width: 20px;
       height: 20px;
     }
+  }
+  .ms-home-hline-logo img{
+    width: 220px;
+    height: 40px;
+    object-fit: contain;
+  }
+  .ms-home-hline-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
   }
 }
 </style>

@@ -3,7 +3,7 @@
     <div class="section-text">
       <div class="section-title">
         BUSINESS<br/>
-        UNITS<i class="fa fa-quare red-dot"></i>
+        UNITS<span class="red-dot"><i class="fa fa-square"></i></span>
       </div>
       <div class="section-description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi feugiat, felis et sagittis<br/>
@@ -56,5 +56,10 @@
       max-height: 150px;
     }
   }
+  .red-dot {
+    font-size: 10px;
+    color: #e82721;
+    margin-left: 4px;
+  } 
 }
 </style>

@@ -1,10 +1,12 @@
 <template>
   <div class="ms-home-our-divisions">
-    <h3 class="section-title">Our divisisions</h3>
-    <p class="section-description">
-      Leveraging experience and insight to enabling peak business<br/>
-      performance.
-    </p>
+    <div class="ms-title">
+      <h3 class="section-title">Our divisisions</h3>
+      <p class="section-description">
+        Leveraging experience and insight to enabling peak business<br/>
+        performance.
+      </p>
+    </div>
     <div class="ms-divisions">
       <div class="ms-division">
         <div class="ms-division-image">
@@ -12,7 +14,7 @@
           <img src="/img/home/our-division-1.jpg" alt="">
         </div>
         <div class="ms-division-name">
-          CONSULTING <span class="red-dot"></span>
+          CONSULTING<span class="red-dot"><i class="fa fa-square"></i></span>
         </div>
         <div class="ms-division-description">
           Delivering on a holistic, 360 strategic<br/>
@@ -26,7 +28,7 @@
           <img src="/img/home/our-division-2.jpg" alt="">
         </div>
         <div class="ms-division-name">
-          COMMUNICATION <span class="red-dot"></span>
+          COMMUNICATION<span class="red-dot"><i class="fa fa-square"></i></span>
         </div>
         <div class="ms-division-description">
           Creating platform neutral memorable<br/>
@@ -40,7 +42,7 @@
           <img src="/img/home/our-division-3.jpg" alt="">
         </div>
         <div class="ms-division-name">
-          ASSETS <span class="red-dot"></span>
+          ASSETS<span class="red-dot"><i class="fa fa-square"></i></span>
         </div>
         <div class="ms-division-description">
           Igniting and fueling viable value<br/>
@@ -60,9 +62,13 @@
 @import '@/assets/styles/colors.scss';
 
 .ms-home-our-divisions {
+  background-color: #f2f2f2;
   padding-top: 110px;
   padding-bottom: 110px;
-
+  .ms-title{
+    margin-left: 18vw;
+    margin-bottom: 6vw;
+  }
   .section-title {
     font-size: 40px;
     font-weight: bold;
@@ -110,6 +116,10 @@
           z-index: 1;
           display: block;
         }
+
+        .red-dot {
+          color: #fff;
+        } 
       }
 
       .ms-division-image {
@@ -152,5 +162,10 @@
       border: none;
     }
   }
+  .red-dot {
+    font-size: 10px;
+    color: #e82721;
+    margin-left: 4px;
+  } 
 }
 </style>
