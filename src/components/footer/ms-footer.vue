@@ -1,7 +1,11 @@
 <template>
   <footer class="ms-footer">
-    <div class="ms-icon">
-      <img src="@/assets/icons/footer/placeholder-image.jpg" alt="icon-footer" class="Intersection-14">
+    <div class="ms-particle-wrapper">
+      <!-- <img src="@/assets/icons/footer/placeholder-image.jpg" alt="icon-footer" class="Intersection-14"> -->
+      <ms-particle
+        width="300px"
+        height="400px"
+      ></ms-particle>
     </div>
     <div class="ms-container-left">
       <h4>Get in Touch</h4>
@@ -25,21 +29,42 @@
         <a href="#">COOKIES POLICY</a> 
       </div>
     </div>
-    <div class="ms-container-bottom-right">
-      <a href="#app" >TO TOP</a>
-      <hr class="ms-container-bottom-right-line">
+    <div class="ms-footer-bottom-right">
+      <span @click="handleScrollUp">TO TOP</span>
+      <hr class="ms-footer-bottom-right-line">
     </div>
 
   </footer>
 </template>
 
+<script>
+import msParticle from '@/components/ms-particle.vue'
+
+export default {
+  methods: {
+    handleScrollUp() {
+      console.log("Click on scroll up");
+    }
+  },
+  components: {
+    msParticle
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 .ms-footer{
   width: 100%;
+  position: relative;
   overflow-x: hidden;
   display: flex;
-  justify-content: flex-start;
+  align-items: flex-end;
   background-color: #000;
+
+  .ms-particle-wrapper {
+    height: 350px;
+    overflow: hidden;
+  }
 
   h4{
     width: 250px;
@@ -164,33 +189,34 @@
   .ms-container-right-link a:hover{
     color: #fff;
   }
-  .ms-container-bottom-right{
+  .ms-footer-bottom-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
     transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
-    display: flex;
-    align-items: center;
-    padding-left: 146px;
-    margin-right: -80px;
-    padding-top: 60px;
-  }
-  .ms-container-bottom-right a{
-    font-family: Roboto;
-    font-size: 10px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.1;
-    letter-spacing: 3px;
-    text-align: left;
-    color: #fff;
-    text-decoration: none;
-    padding-right: 30px;
-  }
-  .ms-container-bottom-right-line{
-    width: 125px;
-    margin-right: -70px;
+    margin-right: 30px;
+    padding-top: 195px;
+
+    .ms-footer-bottom-right-line {
+      width: 125px;
+      margin-left: 30px;
+    }
+
+    span {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 1.1;
+      letter-spacing: 3px;
+      text-align: left;
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }
     
