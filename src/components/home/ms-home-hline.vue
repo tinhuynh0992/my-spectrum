@@ -59,5 +59,15 @@ export default {
       height: 20px;
     }
   }
+  .ms-home-hline-logo img{
+    width: 220px;
+    height: 40px;
+    object-fit: contain;
+  }
+  .ms-home-hline-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+  }
 }
 </style>
