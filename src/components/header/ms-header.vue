@@ -9,6 +9,8 @@
         <img v-else src="@/assets/icons/close-button.svg" alt=""/>
       </div>
 
+      <ms-lang-switcher></ms-lang-switcher>
+
       <div class="ms-menu-logo-wrapper" v-if="menuIsActive">
         <img src="@/assets/menu-logo.png" alt="My Spectrum">
       </div>
@@ -20,6 +22,7 @@
 
 <script>
 import msMenu from '@/components/header/ms-menu.vue'
+import msLangSwitcher from '@/components/header/ms-lang-switcher.vue'
 
 export default {
   data() {
@@ -29,7 +32,8 @@ export default {
   },
 
   components: {
-    msMenu
+    msMenu,
+    msLangSwitcher
   }
 }
 </script>
