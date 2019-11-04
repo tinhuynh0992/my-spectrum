@@ -1,6 +1,7 @@
 <template>
   <div class="ms-home-hline">
     <div class="ms-home-hline-logo">
+      <img src="@/assets/home-hline-logo.svg" alt="">
     </div>
 
     <div class="ms-menu-wrapper">
@@ -37,7 +38,12 @@ export default {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #000;
+
+  .ms-home-hline-logo {
+    padding-left: 3vw;
+  }
 
   .ms-menu-button {
     width: 80px;
