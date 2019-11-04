@@ -77,6 +77,10 @@
       <pagination slot="hooper-addons"></pagination>
     </hooper>
 
+    <div class="ms-slider-bottom-left">
+      <img src="@/assets/home-slider-map.png" alt="" />
+    </div>
+
     <div class="ms-slider-bottom-right">
       <hr class="ms-slider-bottom-right-line">
       <span @click="handleScrollDown">SCROLL</span>
@@ -97,7 +101,7 @@ export default {
 
   methods: {
     handleScrollDown() {
-      console.log("Click on scroll down");
+      document.getElementById("home-who-we-are").scrollIntoView({behavior: "smooth"});
     }
   }
 }
@@ -108,10 +112,14 @@ export default {
 
 .ms-home-slider {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 160px);
   background-color: rgba(65, 65, 65, 0.58);
+  overflow: hidden;
 
   .ms-home-slide {
+    // padding-top: 10vh;
+    // padding-left: 10vw;
+
     .ms-slide-title {
       font-size: 60px;
       font-weight: bold;
@@ -169,6 +177,12 @@ export default {
       color: #fff;
       text-decoration: none;
     }
+  }
+
+  .ms-slider-bottom-left {
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
   }
 
   .ms-slider-bottom-right {
