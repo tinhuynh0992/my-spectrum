@@ -24,7 +24,7 @@
       </p>
       <div class="ms-container-right-box">            
         <input type="text" id="txt-container-right-email" placeholder="Type your email/here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Type your email/here'" >
-        <button class="ms-container-right-icon"><i class="fa fa-long-arrow-alt-right"></i></button>
+        <button class="ms-container-right-icon"><i class="fa fa-arrow-right"></i></button>
       </div>
       <div class="ms-container-right-link">
         <a href="#">PRIVACY POLICY</a> 
@@ -84,6 +84,7 @@ export default {
     padding-top: 92px;
     padding-bottom: -46px;
   }
+
   p{
     width: 180px;
     height: 43px;
@@ -98,6 +99,7 @@ export default {
     color: #969392;
     margin-bottom: 46px;
   }
+
   i{
     width: 8px;
     color: #969392;
@@ -105,18 +107,22 @@ export default {
     margin-top: 39px;
     font-size: 25px;
   }
+
   .Intersection-14 {
     width: 366.3px;
     height: 421.6px;
     background-color: #2b2b2b;
   }
+
   .ms-container-right{
-    margin-left: 22vw;
+    margin-left: 16vw;
   }
+
   .ms-container-right p{ 
     width: 491.3px;
     color: #969392;
   }
+
   .ms-container-right-icon{
     position: absolute;
     align-items: center;
@@ -124,9 +130,7 @@ export default {
     background-color: transparent;
     border: none;
   }
-  .ms-container-right-box input#txt-container-right-email:hover, .ms-container-right-box input#txt-container-right-email:focus, .ms-container-right-box input#txt-container-right-email:active{
-    outline:none;
-  }
+
   .ms-container-right-box input#txt-container-right-email{
     width: 491.3px;
     height: 66px;
@@ -151,7 +155,7 @@ export default {
     justify-content: flex-end;
   }
   .ms-container-right-box input#txt-container-right-email::-webkit-input-placeholder {
-  color: #fff;
+    color: #fff;
   }
   
   .ms-container-right-box input#txt-container-right-email:-moz-placeholder { /* Firefox 18- */
@@ -168,15 +172,19 @@ export default {
   .ms-container-right-icon i{
     margin-top: inherit;
   }
+
   .ms-container-right-icon i:hover, .ms-container-right-icon i:active, .ms-container-right-icon i:focus{
     color: #fff;
   }
+
   .ms-container-left i:hover{
     color: #fff;
   }
+
   .ms-container-right-link{
     margin-top: 66px;
   }
+
   .ms-container-right-link a{
     margin-right: 10px;
     font-family: Roboto;
@@ -189,9 +197,11 @@ export default {
     color: #969392;
     text-decoration: none;
   }
+
   .ms-container-right-link a:hover{
     color: #fff;
   }
+
   .ms-footer-bottom-right {
     position: absolute;
     top: 0;
