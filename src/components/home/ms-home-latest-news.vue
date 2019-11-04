@@ -66,9 +66,9 @@
       height: 564.1px;
     }
     .ms-title{
-      margin-bottom: 73.2px;
       position: relative;
-      margin-top: -300px;
+      margin-top: -22vw;
+      margin-left: 12vw;
     }
     .ms-title i{
       font-size: 10px;
@@ -81,16 +81,17 @@
       padding-bottom: 50px;
       margin-right: 200px;
       font-size: 25px;
+      margin-top: -4vw;
     }
     .ms-icon i{
-      margin-right: 35px;
+      margin-right: 5vw;
       color: #434343;
     }
     .ms-icon i:hover{
       color: #696969;
     }
     .ms-content{
-      width: 91%;
+      width: 68.5vw;
       background-color: #fff;
       display: flex;
       justify-content: center;
@@ -105,10 +106,10 @@
     .ms-post-1, .ms-post-3, .ms-post-2{
       width: 400px;
     }
+    .ms-post-1, .ms-post-3, .ms-post-2{
+      padding: 10px 10px 15px 10px;
+    }
     .ms-post-1:hover, .ms-post-2:hover, .ms-post-3:hover{
-      border-top: 10px solid #e80023;
-      border-left: 10px solid #e80023;
-      border-right: 10px solid #e80023;
       background-color: #e80023;
     }
     .ms-post-2{

@@ -59,7 +59,7 @@ export default {
   background-color: #fff;
 
   .ms-row {
-    width: 51vw;
+    width: 37vw;
     margin: 0 auto;
     display: flex;
     text-align: center;
@@ -95,12 +95,13 @@ export default {
     color: #000000;
   }
   .ms-logo{
-    width: 92%;
+    width: 89vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 112px;
   }
   .ms-logo img{
+    width: 13vw;
     margin-right: 45px;
     margin-left: 45px;
     margin-top: 66px;
@@ -121,7 +122,7 @@ export default {
     border: none;
   }
   .ms-button{
-    width: 19.5%;
+    width: 13.6%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 197px;

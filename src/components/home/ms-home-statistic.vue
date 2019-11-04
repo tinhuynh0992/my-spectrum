@@ -47,8 +47,8 @@
     }
     .ms-box{      
       border-top: 3px solid #e82721;
-      width: 980px;
-      height: 239px;
+      width: 74.5vw;
+      height: 12.5vw;
       box-shadow: 0 14px 26px 0 rgba(0, 0, 0, 0.04);
       background-color: #000000;
       display: flex;
@@ -69,8 +69,8 @@
       letter-spacing: 0.56px;
       text-align: center;
       color: #fff;
-      margin-right: 25px;
-      margin-left: 25px;
+      margin-right: 3vw;
+      margin-left: 3vw;
 
     }
   }
