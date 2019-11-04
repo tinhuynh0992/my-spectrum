@@ -74,6 +74,11 @@
         </div>
       </slide>
     </hooper>
+
+    <div class="ms-slider-bottom-right">
+      <hr class="ms-slider-bottom-right-line">
+      <span @click="handleScrollDown">SCROLL</span>
+    </div>
   </div>
 </template>
 
@@ -85,6 +90,12 @@ export default {
   components: {
     Hooper,
     Slide
+  },
+
+  methods: {
+    handleScrollDown() {
+      console.log("Click on scroll down");
+    }
   }
 }
 </script>
@@ -93,6 +104,7 @@ export default {
 @import '@/assets/styles/colors.scss';
 
 .ms-home-slider {
+  position: relative;
   height: 100vh;
   background-color: rgba(65, 65, 65, 0.58);
 
@@ -155,5 +167,36 @@ export default {
       text-decoration: none;
     }
   }
+
+  .ms-slider-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    margin-right: 30px;
+    padding-top: 195px;
+
+    .ms-slider-bottom-right-line {
+      width: 125px;
+      margin-right: 30px;
+    }
+
+    span {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 1.1;
+      letter-spacing: 3px;
+      text-align: left;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
 }
 </style>
