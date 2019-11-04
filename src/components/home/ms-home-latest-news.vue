@@ -8,8 +8,8 @@
       <h1>LATEST NEWS & INSIGHTS<i class="fa fa-square"></i></h1>
     </div>
     <div class="ms-icon">
-      <a href="#"><i class="fa fa-arrow-left"></i></a>
-      <a href="#"><i class="fa fa-arrow-right"></i></a>
+      <a href="#"><img src="@/assets/icons/arrow-icon-2.svg" alt="arrow icon"></a>
+      <a href="#"><img src="@/assets/icons/arrow-icon-1.svg" alt="arrow icon"></a>
     </div>
     <div class="ms-posts">
       <div class="ms-post">
@@ -126,11 +126,13 @@
         margin-left: 90px;
       }
     }
+
     .ms-title i{
       font-size: 10px;
       margin-left: 4px;
       color: #e82721;
     }
+
     .ms-icon {
       display: flex;
       justify-content: flex-end;
@@ -139,13 +141,15 @@
       font-size: 25px;
       margin-top: -4vw;
     }
-    .ms-icon i{
-      margin-right: 5vw;
-      color: #434343;
+
+    .ms-icon img{
+      margin-right: 5vw;      
     }
+
     .ms-icon i:hover{
       color: #696969;
     }
+
     .badge {
       font-size: 11px;
       line-height: 1.18;
@@ -190,9 +194,8 @@
             bottom: 15px;
             right: 30px;
           }
-
         }
-        
+
         .ms-post-text {
           padding: 30px 15px 0 15px;
           height: 190px;
@@ -254,7 +257,6 @@
             }
           }
         }
-
       }
     }
 
@@ -275,6 +277,5 @@
         cursor: pointer;
       }
     }
-
   }
 </style>

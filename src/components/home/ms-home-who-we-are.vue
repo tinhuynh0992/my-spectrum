@@ -59,6 +59,7 @@
 
       &.style-1 {
         box-shadow: 30px -30px 30px 0 rgba(0, 0, 0, 0.05);
+        margin-top: 6.3vw;
 
         img {
           position: relative;
@@ -69,6 +70,7 @@
 
       &.style-2 {
         box-shadow: -30px 30px 30px 0 rgba(0, 0, 0, 0.05);
+        margin-bottom: 5.5vw;
 
         img {
           position: relative;
@@ -77,6 +79,7 @@
         }
       }
     }
+
     .ms-text {
       padding: 4vw 5.5vw 4vw 4vw;
       .ms-subtitle {
