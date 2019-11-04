@@ -51,10 +51,14 @@ export default {
 
 .ms-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   position: relative;
   background-image: linear-gradient(to bottom, #000000, rgba(65, 65, 65, 0.58));
+
+  .ms-header-logo {
+    padding-left: 3vw;
+  }
 
   .ms-menu-wrapper {
     display: flex;
