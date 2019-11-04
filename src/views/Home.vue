@@ -47,5 +47,6 @@ export default {
   background: url('/img/home/home-slider-bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 </style>

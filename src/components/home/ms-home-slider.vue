@@ -16,7 +16,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -34,7 +34,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -52,7 +52,7 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
       <slide>
@@ -70,12 +70,16 @@
             <li><i class="fa fa-square red-dot"></i></li>
             <li>VALUE CATALYSTS</li>
           </ul>
-          <router-link to="#" class="ms-read-more">MORE&nbsp;&nbsp;<i class="fa fa-caret-right"></i></router-link>
+          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
         </div>
       </slide>
 
       <pagination slot="hooper-addons"></pagination>
     </hooper>
+
+    <div class="ms-slider-bottom-left">
+      <img src="@/assets/home-slider-map.png" alt="" />
+    </div>
 
     <div class="ms-slider-bottom-right">
       <hr class="ms-slider-bottom-right-line">
@@ -97,7 +101,7 @@ export default {
 
   methods: {
     handleScrollDown() {
-      console.log("Click on scroll down");
+      document.getElementById("home-who-we-are").scrollIntoView({behavior: "smooth"});
     }
   }
 }
@@ -108,10 +112,17 @@ export default {
 
 .ms-home-slider {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 160px);
   background-color: rgba(65, 65, 65, 0.58);
+  overflow: hidden;
 
   .ms-home-slide {
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15vw;
+
     .ms-slide-title {
       font-size: 60px;
       font-weight: bold;
@@ -168,7 +179,17 @@ export default {
       line-height: 2.31;
       color: #fff;
       text-decoration: none;
+
+      .fa {
+        margin-left: 10px;
+      }
     }
+  }
+
+  .ms-slider-bottom-left {
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
   }
 
   .ms-slider-bottom-right {
@@ -208,11 +229,13 @@ export default {
 
 .hooper {
   .hooper-pagination.is-vertical {
+    top: calc(50vh - 160px);
     padding-right: 30px;
 
     .hooper-indicator {
       width: 7px;
       height: 7px;
+      margin-bottom: 30px;
 
       &:hover {
         background-color: $red-dark;
