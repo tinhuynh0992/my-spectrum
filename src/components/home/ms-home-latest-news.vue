@@ -5,7 +5,11 @@
       <img src="@/assets/icons/page-last-new/intersection-16.png" alt="aanc">
     </div>
     <div class="ms-title">
-        <h1>LATEST NEWS & INSIGHTS </h1>
+      <h1>LATEST NEWS & INSIGHTS<i class="fa fa-square"></i></h1>
+    </div>
+    <div class="ms-icon">
+      <a href="#"><i class="fa fa-arrow-left"></i></a>
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
     </div>
     <div class="ms-content">
       <div class="ms-post-1">
@@ -18,15 +22,20 @@
         </p>
       </div>
       <div class="ms-post-2">
-        <p>04/03/2019</p>
-        <h4>Creating value beyond the deal</h4>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur 
-          adipiscing elit. Morbi feugiat, felis et 
-          sagittis pulvinar, lacus ligula dictum libero, 
-          sit amet iaculis tellus neque sed justo. Ut vitae 
-          magna ac enim facilisis porta vitae eget magna. Suspendisse molestie, 
-        </p>
+        <div class="ms-post-2-btn">
+            <button class="ms-post-2-btn-view">VIEWS</button>
+          </div>
+        <div class="ms-post-2-content">
+          <p>04/03/2019</p>
+          <h4>Creating value beyond the deal</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Morbi feugiat, felis et 
+            sagittis pulvinar, lacus ligula dictum libero, 
+            sit amet iaculis tellus neque sed justo. Ut vitae 
+            magna ac enim facilisis porta vitae eget magna. Suspendisse molestie, 
+          </p>
+        </div>
       </div>
       <div class="ms-post-3">
         <img src="/img/home/last-new-2.png" alt="Last new post 1">
@@ -45,7 +54,6 @@
 </template>
 
 
-
 <style lang="scss" scoped>
   .ms-last-new{
     background-color: #ededed;
@@ -61,6 +69,25 @@
       margin-bottom: 73.2px;
       position: relative;
       margin-top: -300px;
+    }
+    .ms-title i{
+      font-size: 10px;
+      margin-left: 4px;
+      color: #e82721;
+    }
+    .ms-icon{
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 50px;
+      margin-right: 200px;
+      font-size: 25px;
+    }
+    .ms-icon i{
+      margin-right: 35px;
+      color: #434343;
+    }
+    .ms-icon i:hover{
+      color: #696969;
     }
     .ms-content{
       width: 91%;
@@ -78,11 +105,17 @@
     .ms-post-1, .ms-post-3, .ms-post-2{
       width: 400px;
     }
+    .ms-post-1:hover, .ms-post-2:hover, .ms-post-3:hover{
+      border-top: 10px solid #e80023;
+      border-left: 10px solid #e80023;
+      border-right: 10px solid #e80023;
+      background-color: #e80023;
+    }
     .ms-post-2{
       height: 462px;
-      background-color: #e80023;
       margin-left: 47px;
       margin-right: 47px;
+      background-color: #e80023;
     }
     h4,p{
       padding-left: 10px;
@@ -150,5 +183,27 @@
       border: none;
       margin-top: 105px;
     }
+    .ms-post-2-btn{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .ms-post-2 .ms-post-2-btn-view{
+      width: 64px;
+      height: 27px;
+      background-color: #000000;
+      color: #fff;
+      border: none;
+      margin-top: 22px;
+      margin-bottom: 22px;
+      margin-right: 22px;
+      position: relative;
+    }
+    .ms-post-2{
+      background: #fff;
+    }
+   .ms-post-2-content h4,p{
+     color: #000;
+   }
+    
   }
 </style>
