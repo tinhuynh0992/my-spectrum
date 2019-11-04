@@ -101,6 +101,11 @@
         }
 
         .ms-menu-primary {
+          margin-right: 5vw;
+          &:last-child {
+            margin-right: 0;
+          }
+
           .ms-menu-item {
             &:last-child {
               margin-bottom: 0;

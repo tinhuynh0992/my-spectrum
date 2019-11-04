@@ -46,7 +46,7 @@ import msParticle from '@/components/ms-particle.vue'
 export default {
   methods: {
     handleScrollUp() {
-      console.log("Click on scroll up");
+      document.getElementById("app").scrollIntoView({behavior: "smooth"});
     }
   },
   components: {
