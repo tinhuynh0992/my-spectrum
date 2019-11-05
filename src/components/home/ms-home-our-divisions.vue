@@ -65,10 +65,12 @@
   background-color: #f2f2f2;
   padding-top: 110px;
   padding-bottom: 110px;
-  .ms-title{
+
+  .ms-title {
     margin-left: 18vw;
     margin-bottom: 6vw;
   }
+
   .section-title {
     font-size: 40px;
     font-weight: bold;
@@ -170,6 +172,6 @@
     font-size: 10px;
     color: #e82721;
     margin-left: 4px;
-  } 
+  }
 }
 </style>

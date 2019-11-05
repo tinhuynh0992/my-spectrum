@@ -37,13 +37,33 @@
       </div>
     </div>
 
+    <div class="ms-particle-wrapper">
+      <ms-particle
+        width="50vw"
+        height="15vw"
+        link-color="#e82721"
+        :num-particles="15"
+      ></ms-particle>
+    </div>
   </div>
 </template>
+
+<script>
+import msParticle from '@/components/ms-particle.vue'
+
+export default {
+  components: {
+    msParticle
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 @import '@/assets/styles/colors.scss';
 
 .ms-home-who-we-are {
+  position: relative;
+
   .ms-row {
     width: 75vw;
     margin: 0 auto;
@@ -124,11 +144,18 @@
         }
       }
     }
-    .ms-title i{
+    .ms-title i {
       font-size: 10px;
       margin-left: 3px;
       color: #e82721;
     }
+  }
+
+  .ms-particle-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="ms-home-slider">
-    <hooper :vertical="true" style="height: 100vh" :itemsToShow="1" :centerMode="true">
+    <hooper :vertical="true" style="height: 100vh" :itemsToShow="1" :centerMode="true" :wheelControl="false">
       <slide>
         <div class="ms-home-slide">
           <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 1</span></h4>
