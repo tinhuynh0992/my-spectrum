@@ -1,5 +1,7 @@
 <template>
   <header class="ms-header">
+    <div class="ms-header-layer"></div>
+
     <div class="ms-header-logo">
       <img src="@/assets/logo.png" alt="My Spectrum">
     </div>
@@ -51,13 +53,22 @@ export default {
 
 .ms-header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   position: relative;
-  background-image: linear-gradient(to bottom, #000000, rgba(65, 65, 65, 0.58));
+
+  .ms-header-layer {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background-image: linear-gradient(to bottom, #000000, rgba(65, 65, 65, 0.58));
+  }
 
   .ms-header-logo {
+    display: flex;
+    align-items: center;
+    height: 160px;
     padding-left: 3vw;
+    z-index: 1;
   }
 
   .ms-menu-wrapper {
