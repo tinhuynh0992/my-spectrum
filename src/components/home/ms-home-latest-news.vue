@@ -276,6 +276,10 @@
         border: none;
         cursor: pointer;
       }
+
+      .ms-button-read-more:hover{
+        background-color: #e82721;
+      }
     }
   }
 </style>

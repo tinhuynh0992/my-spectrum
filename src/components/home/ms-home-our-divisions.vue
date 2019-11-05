@@ -161,6 +161,10 @@
       padding: 24px 80px;
       border: none;
     }
+
+    .ms-read-more:hover{
+      background-color: #e82721;
+    }
   }
   .red-dot {
     font-size: 10px;
