@@ -61,8 +61,7 @@
   justify-content: flex-end;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(36, 36, 36, 0.75);
-
+  background-color: transparent;
   z-index: 1;
 
   .ms-menu-inner {
@@ -87,6 +86,10 @@
         .ms-menu-item {
           list-style-type: none;
           margin-bottom: 29px;
+        }
+
+        .ms-menu-item a:hover, .ms-menu-item a:active{
+          color: #fff;
         }
 
         a {
@@ -139,6 +142,10 @@
           .ms-menu-item {
             list-style-type: none;
             margin-right: 45px;
+          }
+
+          a:hover{
+            color: #fff;
           }
         }
 

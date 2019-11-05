@@ -106,7 +106,7 @@ export default {
     margin-left: 45px;
     margin-top: 66px;
   }
-  .ms-button .ms-button-partner{
+  .ms-button-partner{
     width: 262.3px;
     height: 62px;
     background-color: #000000;
@@ -120,6 +120,9 @@ export default {
     letter-spacing: 1.3px;
     text-align: center;
     border: none;
+  }
+  .ms-button-partner:hover{
+    background-color: #e82721;
   }
   .ms-button{
     width: 13.6%;
