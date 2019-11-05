@@ -1,10 +1,10 @@
 <template>
   <div class="home-page">
-    <div class="ms-nav-slider">
+    <div class="ms-nav-wrapper">
       <ms-header/>
-      <ms-home-slider></ms-home-slider>
     </div>
 
+    <ms-home-slider></ms-home-slider>
     <ms-home-who-we-are></ms-home-who-we-are>
     <ms-home-our-divisions></ms-home-our-divisions>
     <ms-home-hline></ms-home-hline>
@@ -43,10 +43,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.ms-nav-slider {
-  background: url('/img/home/home-slider-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.home-page {
+  position: relative;
+  width: 100%;
+}
+.ms-nav-wrapper {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
 }
 </style>

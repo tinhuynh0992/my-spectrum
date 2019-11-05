@@ -2,75 +2,111 @@
   <div class="ms-home-slider">
     <hooper :vertical="true" style="height: 100vh" :itemsToShow="1" :centerMode="true" :wheelControl="false">
       <slide>
-        <div class="ms-home-slide">
-          <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 1</span></h4>
-          <p class="ms-slide-description">
-            Providing One-Stop business solutions through a<br/>
-            highly connected service model, delivering actionable,<br/>
-            end to end growth support to our clients.
-          </p>
-          <ul class="ms-slide-tags">
-            <li>SOLUTIONISTS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>CONNECTORS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>VALUE CATALYSTS</li>
-          </ul>
-          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+        <div class="ms-home-slide" :style="{
+          backgroundImage: 'url(\'/img/home/home-slider-bg-1.jpg\')',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover'
+        }">
+          <div class="ms-home-slide-layer"></div>
+
+          <div class="ms-home-slide-content">
+            <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 1</span></h4>
+            <p class="ms-slide-description">
+              Providing One-Stop business solutions through a<br/>
+              highly connected service model, delivering actionable,<br/>
+              end to end growth support to our clients.
+            </p>
+            <ul class="ms-slide-tags">
+              <li>SOLUTIONISTS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>CONNECTORS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>VALUE CATALYSTS</li>
+            </ul>
+            <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+          </div>
         </div>
       </slide>
       <slide>
-        <div class="ms-home-slide">
-          <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 2</span></h4>
-          <p class="ms-slide-description">
-            Providing One-Stop business solutions through a<br/>
-            highly connected service model, delivering actionable,<br/>
-            end to end growth support to our clients.
-          </p>
-          <ul class="ms-slide-tags">
-            <li>SOLUTIONISTS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>CONNECTORS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>VALUE CATALYSTS</li>
-          </ul>
-          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+        <div class="ms-home-slide" :style="{
+          background: 'url(\'/img/home/home-slider-bg-2.jpg\')',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover'
+        }">
+          <div class="ms-home-slide-layer"></div>
+
+          <div class="ms-home-slide-content">
+            <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 2</span></h4>
+            <p class="ms-slide-description">
+              Providing One-Stop business solutions through a<br/>
+              highly connected service model, delivering actionable,<br/>
+              end to end growth support to our clients.
+            </p>
+            <ul class="ms-slide-tags">
+              <li>SOLUTIONISTS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>CONNECTORS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>VALUE CATALYSTS</li>
+            </ul>
+            <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+          </div>
         </div>
       </slide>
       <slide>
-        <div class="ms-home-slide">
-          <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 3</span></h4>
-          <p class="ms-slide-description">
-            Providing One-Stop business solutions through a<br/>
-            highly connected service model, delivering actionable,<br/>
-            end to end growth support to our clients.
-          </p>
-          <ul class="ms-slide-tags">
-            <li>SOLUTIONISTS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>CONNECTORS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>VALUE CATALYSTS</li>
-          </ul>
-          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+        <div class="ms-home-slide" :style="{
+          background: 'url(\'/img/home/home-slider-bg-3.jpg\')',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover'
+        }">
+          <div class="ms-home-slide-layer"></div>
+
+          <div class="ms-home-slide-content">
+            <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 3</span></h4>
+            <p class="ms-slide-description">
+              Providing One-Stop business solutions through a<br/>
+              highly connected service model, delivering actionable,<br/>
+              end to end growth support to our clients.
+            </p>
+            <ul class="ms-slide-tags">
+              <li>SOLUTIONISTS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>CONNECTORS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>VALUE CATALYSTS</li>
+            </ul>
+            <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+          </div>
         </div>
       </slide>
       <slide>
-        <div class="ms-home-slide">
-          <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 4</span></h4>
-          <p class="ms-slide-description">
-            Providing One-Stop business solutions through a<br/>
-            highly connected service model, delivering actionable,<br/>
-            end to end growth support to our clients.
-          </p>
-          <ul class="ms-slide-tags">
-            <li>SOLUTIONISTS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>CONNECTORS</li>
-            <li><i class="fa fa-square red-dot"></i></li>
-            <li>VALUE CATALYSTS</li>
-          </ul>
-          <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+        <div class="ms-home-slide" :style="{
+          background: 'url(\'/img/home/home-slider-bg-4.jpg\')',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover'
+        }">
+          <div class="ms-home-slide-layer"></div>
+
+          <div class="ms-home-slide-content">
+            <h4 class="ms-slide-title">OUR <span class="text-red">MISSION 4</span></h4>
+            <p class="ms-slide-description">
+              Providing One-Stop business solutions through a<br/>
+              highly connected service model, delivering actionable,<br/>
+              end to end growth support to our clients.
+            </p>
+            <ul class="ms-slide-tags">
+              <li>SOLUTIONISTS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>CONNECTORS</li>
+              <li><i class="fa fa-square red-dot"></i></li>
+              <li>VALUE CATALYSTS</li>
+            </ul>
+            <router-link to="#" class="ms-read-more">MORE<i class="fa fa-caret-right"></i></router-link>
+          </div>
         </div>
       </slide>
 
@@ -112,16 +148,30 @@ export default {
 
 .ms-home-slider {
   position: relative;
-  height: calc(100vh - 160px);
+  height: 100vh;
   background-color: rgba(65, 65, 65, 0.58);
   overflow: hidden;
 
   .ms-home-slide {
-    height: calc(100vh - 160px);
+    height: 100vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 15vw;
+
+    .ms-home-slide-layer {
+      position: absolute;
+      width: 100%;
+      top: 160px;
+      height: calc(100vh - 160px);
+      background-color: rgba(65, 65, 65, 0.58);
+      z-index: 1;
+    }
+
+    .ms-home-slide-content {
+      padding-left: 15vw;
+      z-index: 1;
+    }
 
     .ms-slide-title {
       font-size: 60px;
@@ -229,7 +279,7 @@ export default {
 
 .hooper {
   .hooper-pagination.is-vertical {
-    top: calc(50vh - 160px);
+    top: 50vh;
     padding-right: 30px;
 
     .hooper-indicator {
