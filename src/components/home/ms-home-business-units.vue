@@ -49,8 +49,15 @@
     }
   }
 
+  .section-map {
+    position: relative;
+    z-index: 1;
+  }
+
   .section-logo {
     margin-top: -40px;
+    position: relative;
+    z-index: 1;
 
     img {
       max-height: 150px;

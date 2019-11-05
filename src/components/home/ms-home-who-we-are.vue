@@ -42,7 +42,7 @@
         width="50vw"
         height="15vw"
         link-color="#e82721"
-        :num-particles="15"
+        :number-particles="15"
       ></ms-particle>
     </div>
   </div>
